@@ -4,7 +4,7 @@ go 1.13
 
 require (
 	github.com/beevik/etree v1.1.0
-	github.com/erlangs/hexya-base v1.0.0
+	github.com/erlangs/hexya-base v1.0.1
 	github.com/erlangs/okoo v1.0.2
 	github.com/erlangs/pool v1.0.0
 	github.com/gin-contrib/sessions v0.0.1
