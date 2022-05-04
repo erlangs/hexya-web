@@ -15,16 +15,16 @@
 package web
 
 import (
+	"github.com/erlangs/okoo/src/i18n/translations"
 	// Loading dependencies as blank imports
-	_ "github.com/hexya-addons/base"
-	"github.com/hexya-addons/web/controllers"
-	"github.com/hexya-erp/hexya/src/i18n/translations"
+	_ "github.com/erlangs/hexya-base"
+	"github.com/erlangs/hexya-web/controllers"
 
+	"github.com/erlangs/okoo/src/server"
+	"github.com/erlangs/okoo/src/tools/logging"
 	// Loading controllers package
-	_ "github.com/hexya-addons/web/controllers"
-	"github.com/hexya-addons/web/scripts"
-	"github.com/hexya-erp/hexya/src/server"
-	"github.com/hexya-erp/hexya/src/tools/logging"
+	_ "github.com/erlangs/hexya-web/controllers"
+	"github.com/erlangs/hexya-web/scripts"
 )
 
 const (

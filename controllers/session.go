@@ -7,15 +7,15 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/erlangs/hexya-web/webtypes"
+	"github.com/erlangs/okoo/src/models"
+	"github.com/erlangs/okoo/src/models/security"
+	"github.com/erlangs/okoo/src/models/types"
+	"github.com/erlangs/okoo/src/server"
+	"github.com/erlangs/pool/h"
+	"github.com/erlangs/pool/q"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/hexya-addons/web/webtypes"
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/security"
-	"github.com/hexya-erp/hexya/src/models/types"
-	"github.com/hexya-erp/hexya/src/server"
-	"github.com/hexya-erp/pool/h"
-	"github.com/hexya-erp/pool/q"
 	"github.com/spf13/viper"
 )
 

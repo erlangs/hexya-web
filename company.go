@@ -4,9 +4,9 @@
 package web
 
 import (
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/fields"
-	"github.com/hexya-erp/pool/h"
+	"github.com/erlangs/okoo/src/models"
+	"github.com/erlangs/okoo/src/models/fields"
+	"github.com/erlangs/pool/h"
 )
 
 var fields_Company = map[string]models.FieldDefinition{

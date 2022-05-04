@@ -4,11 +4,11 @@
 package web
 
 import (
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/fields"
-	"github.com/hexya-erp/hexya/src/models/types"
-	"github.com/hexya-erp/pool/h"
-	"github.com/hexya-erp/pool/m"
+	"github.com/erlangs/okoo/src/models"
+	"github.com/erlangs/okoo/src/models/fields"
+	"github.com/erlangs/okoo/src/models/types"
+	"github.com/erlangs/pool/h"
+	"github.com/erlangs/pool/m"
 )
 
 var fields_User = map[string]models.FieldDefinition{

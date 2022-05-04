@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hexya-addons/web/odooproxy"
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/fields"
-	"github.com/hexya-erp/hexya/src/tools/strutils"
-	"github.com/hexya-erp/pool/h"
-	"github.com/hexya-erp/pool/m"
-	"github.com/hexya-erp/pool/q"
+	"github.com/erlangs/hexya-web/odooproxy"
+	"github.com/erlangs/okoo/src/models"
+	"github.com/erlangs/okoo/src/models/fields"
+	"github.com/erlangs/okoo/src/tools/strutils"
+	"github.com/erlangs/pool/h"
+	"github.com/erlangs/pool/m"
+	"github.com/erlangs/pool/q"
 )
 
 var fields_Filter = map[string]models.FieldDefinition{

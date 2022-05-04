@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/hexya-erp/hexya/src/menus"
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/security"
-	"github.com/hexya-erp/hexya/src/server"
-	"github.com/hexya-erp/pool/h"
+	"github.com/erlangs/okoo/src/menus"
+	"github.com/erlangs/okoo/src/models"
+	"github.com/erlangs/okoo/src/models/security"
+	"github.com/erlangs/okoo/src/server"
+	"github.com/erlangs/pool/h"
 )
 
 // CompanyLogo serves the logo of the company

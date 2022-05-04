@@ -10,12 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hexya-addons/web/client"
-	"github.com/hexya-addons/web/controllers"
-	"github.com/hexya-addons/web/domains"
-	"github.com/hexya-erp/hexya/src/models/types"
-	"github.com/hexya-erp/hexya/src/server"
-	. "github.com/smartystreets/goconvey/convey"
+	"github.com/erlangs/hexya-web/client"
+	"github.com/erlangs/hexya-web/controllers"
+	"github.com/erlangs/hexya-web/domains"
+	"github.com/erlangs/okoo/src/models/types"
+	"github.com/erlangs/okoo/src/server"
 )
 
 func TestWebclientCalls(t *testing.T) {

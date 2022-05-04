@@ -20,13 +20,13 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/hexya-addons/web/domains"
-	"github.com/hexya-addons/web/odooproxy"
-	"github.com/hexya-addons/web/webtypes"
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/types"
-	"github.com/hexya-erp/hexya/src/tools/logging"
-	"github.com/hexya-erp/hexya/src/tools/nbutils"
+	"github.com/erlangs/hexya-web/domains"
+	"github.com/erlangs/hexya-web/odooproxy"
+	"github.com/erlangs/hexya-web/webtypes"
+	"github.com/erlangs/okoo/src/models"
+	"github.com/erlangs/okoo/src/models/types"
+	"github.com/erlangs/okoo/src/tools/logging"
+	"github.com/erlangs/okoo/src/tools/nbutils"
 )
 
 var (

@@ -7,12 +7,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/hexya-addons/web/domains"
-	"github.com/hexya-erp/hexya/src/actions"
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/operator"
-	"github.com/hexya-erp/hexya/src/tools/nbutils"
-	"github.com/hexya-erp/hexya/src/views"
+	"github.com/erlangs/hexya-web/domains"
+	"github.com/erlangs/okoo/src/actions"
+	"github.com/erlangs/okoo/src/models"
+	"github.com/erlangs/okoo/src/models/operator"
+	"github.com/erlangs/okoo/src/tools/nbutils"
+	"github.com/erlangs/okoo/src/views"
 )
 
 // FieldsViewGetParams is the args struct for the FieldsViewGet function

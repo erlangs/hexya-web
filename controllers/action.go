@@ -7,13 +7,13 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/hexya-erp/hexya/src/actions"
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/security"
-	"github.com/hexya-erp/hexya/src/models/types"
-	"github.com/hexya-erp/hexya/src/server"
-	"github.com/hexya-erp/pool/h"
-	"github.com/hexya-erp/pool/q"
+	"github.com/erlangs/okoo/src/actions"
+	"github.com/erlangs/okoo/src/models"
+	"github.com/erlangs/okoo/src/models/security"
+	"github.com/erlangs/okoo/src/models/types"
+	"github.com/erlangs/okoo/src/server"
+	"github.com/erlangs/pool/h"
+	"github.com/erlangs/pool/q"
 )
 
 // ActionLoad returns the action with the given id

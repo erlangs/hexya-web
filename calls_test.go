@@ -8,15 +8,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hexya-addons/web/controllers"
-	"github.com/hexya-addons/web/webtypes"
-	"github.com/hexya-erp/hexya/src/actions"
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/operator"
-	"github.com/hexya-erp/hexya/src/models/security"
-	"github.com/hexya-erp/pool/h"
-	"github.com/hexya-erp/pool/m"
-	. "github.com/smartystreets/goconvey/convey"
+	"github.com/erlangs/hexya-web/controllers"
+	"github.com/erlangs/hexya-web/webtypes"
+	"github.com/erlangs/okoo/src/actions"
+	"github.com/erlangs/okoo/src/models"
+	"github.com/erlangs/okoo/src/models/operator"
+	"github.com/erlangs/okoo/src/models/security"
+	"github.com/erlangs/pool/h"
+	"github.com/erlangs/pool/m"
 )
 
 func TestExecute(t *testing.T) {

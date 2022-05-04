@@ -8,10 +8,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hexya-erp/hexya/src/controllers"
-	"github.com/hexya-erp/hexya/src/server"
-	"github.com/hexya-erp/hexya/src/tools/hweb"
-	"github.com/hexya-erp/hexya/src/tools/logging"
+	"github.com/erlangs/okoo/src/controllers"
+	"github.com/erlangs/okoo/src/server"
+	"github.com/erlangs/okoo/src/tools/hweb"
+	"github.com/erlangs/okoo/src/tools/logging"
 )
 
 const (

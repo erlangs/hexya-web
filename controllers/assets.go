@@ -12,12 +12,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/security"
-	"github.com/hexya-erp/hexya/src/server"
-	"github.com/hexya-erp/hexya/src/tools/assets"
-	"github.com/hexya-erp/pool/h"
-	"github.com/hexya-erp/pool/q"
+	"github.com/erlangs/okoo/src/models"
+	"github.com/erlangs/okoo/src/models/security"
+	"github.com/erlangs/okoo/src/server"
+	"github.com/erlangs/okoo/src/tools/assets"
+	"github.com/erlangs/pool/h"
+	"github.com/erlangs/pool/q"
 )
 
 const bootstrapScssPath = "static/web/lib/bootstrap/scss"
