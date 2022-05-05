@@ -144,6 +144,31 @@ msgstr ""
 
 #. custom: web
 #: base.xml:0
+msgid "Filters"
+msgstr "筛选"
+
+#. custom: web
+#: base.xml:0
+msgid "Group By"
+msgstr "分组"
+
+#. custom: web
+#: base.xml:0
+msgid "Favorites"
+msgstr "收藏"
+
+#. custom: web
+#: base.xml:0
+msgid "Search..."
+msgstr "搜索..."
+
+#. custom: web
+#: base.xml:0
+msgid "Search..."
+msgstr "搜索..."
+
+#. custom: web
+#: base.xml:0
 msgid "Add Custom Filter"
 msgstr "添加自定义筛选"
 
@@ -1280,7 +1305,7 @@ msgstr "保存并关闭"
 #. custom: web
 #: base.xml:0
 msgid "Save Current Search"
-msgstr ""
+msgstr "保存当前搜索"
 
 #. custom: web
 #: basic_fields.js:1955
