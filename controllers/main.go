@@ -177,7 +177,7 @@ func RegisterRoutes() {
 	root.AddController(http.MethodGet, "/dashboard", Dashboard)
 	web := root.AddGroup("/web")
 	{
-		web.AddMiddleWare(LoginRequired)
+		//web.AddMiddleWare(LoginRequired)
 		web.AddController(http.MethodGet, "/", WebClient)
 		web.AddController(http.MethodGet, "/image/:model/:id/:field/*any", Image)
 		web.AddController(http.MethodGet, "/image", Image)

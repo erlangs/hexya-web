@@ -200,6 +200,16 @@ func WebClient(c *server.Context) {
 		})
 	}
 
+	sessionInfo := GetSessionInfoStruct(c.Session())
+	if sessionInfo == nil {
+		//uid := c.Session().Get("uid")
+		//log.Warn(fmt.Sprintf("只有uid，没有sessionInfo, uid: %d", uid))
+		c.Session().Clear()
+		c.Session().Save()
+		c.Redirect(http.StatusSeeOther, "/web/login")
+		c.Abort()
+	}
+
 	siBytes, err := json.Marshal(GetSessionInfoStruct(c.Session()))
 	if err != nil {
 		c.Error(err)
