@@ -70,7 +70,7 @@ var UserMenu = Widget.extend({
                     })
                     .guardedCatch(function (result, ev){
                         ev.preventDefault();
-                        framework.redirect('https://accounts.hexya.io/account');
+                        // framework.redirect('https://accounts.hexya.io/account');
                     });
             },
         });
@@ -79,7 +79,7 @@ var UserMenu = Widget.extend({
      * @private
      */
     _onMenuDocumentation: function () {
-        window.open('https://www.hexya.io/documentation/user', '_blank');
+        window.open('https://github.com/erlangs/okoo', '_blank');
     },
     /**
      * @private
@@ -112,7 +112,7 @@ var UserMenu = Widget.extend({
      * @private
      */
     _onMenuSupport: function () {
-        window.open('https://www.hexya.io/buy', '_blank');
+        window.open('https://github.com/erlangs/okoo', '_blank');
     },
     /**
      * @private
