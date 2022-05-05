@@ -101,7 +101,7 @@ var AbstractWebClient = Widget.extend(ServiceProviderMixin, KeyboardNavigationMi
         this._current_state = null;
         this.menu_dp = new concurrency.DropPrevious();
         this.action_mutex = new concurrency.Mutex();
-        this.set('title_part', {"zhexyaerp": "Hexya"});
+        this.set('title_part', {"okooerp": "Okoo"});
     },
     start: function () {
         var self = this;
